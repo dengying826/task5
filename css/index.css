@@ -21,12 +21,10 @@ body {
 
 .back {
     float: left;
-    position: fixed;
     text-align: left;
     margin-left: 10px;
-    text-align: center;
     line-height: 6.67vh;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .title {
