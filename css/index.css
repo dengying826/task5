@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-weight: lighter;
-    font-size: 2vh;
+    font-size: 62.5%;
+
 }
 
 body {
@@ -11,11 +11,19 @@ body {
     height: 100vh;
 }
 
+button {
+    outline: none;
+    background: none;
+    border: 0px;
+    font-size: 1.5rem;
+}
+
 .top {
     width: 100vw;
     height: 6.67vh;
     color: #ffffff;
     background-color: rgb(115, 190, 204);
+    font-size: 1.5rem;
 
 }
 
@@ -25,11 +33,15 @@ body {
     margin-left: 10px;
     line-height: 6.67vh;
     font-weight: bold;
+    font-size: 1.5rem;
+
 }
 
 .title {
     text-align: center;
     line-height: 6.67vh;
+    font-size: 1.5rem;
+
 }
 
 .photo {
@@ -40,33 +52,32 @@ body {
     color: #ffffff;
 }
 
-.info {
-    float: left;
-    vertical-align: bottom;
-    width: fit-content;
-    height: 10vh;
-    margin: 10.33vh 30px 6.33vh 0;
-}
-
 .image {
     float: left;
     height: 14vh;
     margin: 6.33vh 30px 6.33vh 30px;
 }
 
-.name, .age, .loc, .addr {
+.info {
+    float: left;
+    height: 10vh;
+    margin: 10.33vh 0 6.33vh 0;
+}
+
+.name, .age, .addr {
     display: inline;
-    font-size: 3vh;
-    padding-bottom: 2%;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .loc {
-    width: 2vh;
-    padding-top: 2vh;
+    width: 1.3rem;
+    padding-top: 1vh;
+    padding-right: 1vh;
 }
 
 .addr {
-    font-size: 1vh;
+    font-size: 1.3rem;
 }
 
 .c1 {
@@ -76,7 +87,8 @@ body {
     border-bottom: solid 1px rgb(226, 239, 231);
 
 }
-.c1 span{
+
+.c1 span {
     color: black;
     font-weight: normal;
     padding-left: 25px;
@@ -124,24 +136,33 @@ body {
 .c3 {
     display: inline-block;
     width: 100vw;
-    line-height: 8vh;
+    height: 10vh;
     border-bottom: solid 1px rgb(226, 239, 231);
     color: black;
-    font-weight: normal;
+
+    /*position: absolute; top:50%;*/
 }
+
 .line3 {
     float: left;
     height: 50%;
-    margin: 25% 3vh 25% 3vh;
+    transform: translate(0, 50%);
+    margin-left: 3vh;
+    margin-right: 3vh;
 }
+
 .word_3 {
     width: 65vw;
-    display: inline-block;
+    height: 100%;
     float: left;
-    line-height: 4vh;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    word-wrap: break-word;
+    word-break: break-all;
+}
 
+.word_3 p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .bottom {
