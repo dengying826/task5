@@ -16,7 +16,7 @@ body {
 button {
     outline: none;
     background: none;
-    border: 0px;
+    border: 0;
     font-size: 1.2rem;
 }
 
@@ -140,7 +140,7 @@ button {
 .c3 {
     display: inline-block;
     width: 100vw;
-    height: 10vh;
+    height: 12vh;
     border-bottom: solid 1px rgb(226, 239, 231);
     color: black;
     margin-left: 10px;
@@ -166,7 +166,7 @@ button {
 
 .word_3 p {
     position: relative;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     top: 50%;
     transform: translateY(-50%);
     padding: 2px 2px 2px 0 ;
@@ -186,7 +186,7 @@ button {
     border-radius: 1vh;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 
 .tel {
@@ -199,6 +199,6 @@ button {
     border-radius: 1vh;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 4vh;
+    margin-top: 3vh;
 
 }
