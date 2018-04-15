@@ -2,20 +2,22 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 62.5%;
+    /*font-size: 62.5%;*/
 
 }
 
 body {
     width: 100vw;
     height: 100vh;
+
+    overflow: hidden;
 }
 
 button {
     outline: none;
     background: none;
     border: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .top {
@@ -23,7 +25,7 @@ button {
     height: 6.67vh;
     color: #ffffff;
     background-color: rgb(115, 190, 204);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
@@ -33,14 +35,14 @@ button {
     margin-left: 10px;
     line-height: 6.67vh;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
 .title {
     text-align: center;
     line-height: 6.67vh;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
@@ -66,25 +68,25 @@ button {
 
 .name, .age, .addr {
     display: inline;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 .loc {
-    width: 1.3rem;
+    width: 1rem;
     padding-top: 1vh;
     padding-right: 1vh;
 }
 
 .addr {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .c1 {
     height: 8vh;
     width: 100vw;
     line-height: 8vh;
-    border-bottom: solid 1px rgb(226, 239, 231);
+    border-bottom: solid 1px rgb(225, 229, 231);
 
 }
 
@@ -103,7 +105,7 @@ button {
     border-bottom: solid 1px rgb(226, 239, 231);
     color: black;
     font-weight: normal;
-    /*overflow: scroll;*/
+    margin-left: 10px;
 }
 
 .word_1 {
@@ -139,6 +141,8 @@ button {
     height: 10vh;
     border-bottom: solid 1px rgb(226, 239, 231);
     color: black;
+
+    margin-left: 10px;
 }
 
 .line3 {
