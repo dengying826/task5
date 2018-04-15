@@ -93,8 +93,9 @@ button {
 .c1 span {
     color: black;
     font-weight: normal;
-    padding-left: 25px;
+    margin-left: 25px;
     font-size: 2.5vh;
+    border-left: 2px solid rgb(115,190,204);
 
 }
 
