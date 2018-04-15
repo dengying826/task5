@@ -118,6 +118,7 @@ button {
 .line {
     float: left;
     height: 4vh;
+    width: 1px;
     margin: 2vh 3vh 2vh 3vh;
 }
 
